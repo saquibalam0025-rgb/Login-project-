@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column; /* Content ko upar se niche arrange karne ke liye */
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('6213932.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+header {
+    padding: 20px;
+    text-align: left; /* Header ko left side rakhne ke liye */
+}
+
+h1 {
+    color: #D4AF37; /* Golden Color */
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center; /* Form ko horizontal center karne ke liye */
+    align-items: center;     /* Form ko vertical center karne ke liye */
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+    width: 350px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.login {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.btn-login {
+    width: 100%;
+    padding: 10px;
+    background: #D4AF37;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-login:hover {
+    background: #f1c40f;
+    transform: scale(1.02);
+}
+footer {
+    padding: 15px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Niche halki kaali patti */
+}
