@@ -82,3 +82,8 @@ footer {
     text-align: center;
     background: rgba(0, 0, 0, 0.5); /* Niche halki kaali patti */
 }
+.login-container {
+    width: 90%;          /* Mobile par screen ka 90% hissa lega */
+    max-width: 350px;    /* Lekin badi screen par 350px se bada nahi hoga */
+}
+
